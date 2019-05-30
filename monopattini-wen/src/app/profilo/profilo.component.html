@@ -1,0 +1,33 @@
+<div class="row" class="image-container">
+  <div class="text">MONO-RENT</div>
+  <div class="column">
+    <div class="card">
+      <h3>Informazioni profilo</h3><br>
+      <p>Username: <b>{{data.result.username}}</b></p>
+      <p>Id: <b>{{data.result._id}}</b></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Dati utente</h3><br>
+      <p>Nome: <b>{{data.result.nome}}</b></p>
+      <p>Cognome: <b>{{data.result.cognome}}</b></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Fatturazione</h3><br>
+      <p>N. carta di credito: <b>XXXX XXXX XXXX XXXX</b></p>
+      <p>Data scadenza: <b>{{data.result.cartaDiCredito[1]}}</b></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Noleggi</h3><br>
+      <p>Costo totale noleggi: <b>......€</b></p>
+    </div>
+  </div>
+</div>
